@@ -224,7 +224,7 @@ async def show_basket(update: Update, context: CallbackContext):
 
 def main():
     # Замените 'YOUR_BOT_TOKEN' на ваш реальный токен
-    application = Application.builder().token('7370579930:AAG6JoGTvWlteNMnTgtadsjrtvcXHVjkQRo').build()
+    application = Application.builder().token('8097390002:AAG_FQT8b-jr_Nx1MuILsk02Narzj4dxdac').build()
     
     application.add_handler(CommandHandler('start', start))
     application.add_handler(MessageHandler(filters.LOCATION, handle_location))
